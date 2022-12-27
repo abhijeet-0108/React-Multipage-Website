@@ -1,0 +1,72 @@
+.navbar {
+  text-decoration: none;
+  display: flex;
+  padding: 4px;
+  margin: 0px 150px;
+  font-size: larger;
+  font-weight: 800;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 30px;
+  text-transform: uppercase;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuIcon {
+  width: 100vw;
+  height: 5vh;
+  margin: 20px;
+  display: flex;
+  font-size: x-large;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+}
+
+.navbar:hover {
+  color: black;
+}
+
+.img-logo {
+  margin-top: 15px;
+}
+
+.hireme-btn:hover{
+    background-color: black;
+}
+
+.descrip{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    max-width: 50rem;
+    margin: auto;
+    background-color: white;
+}
+
+.contact-input{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+input{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+textarea{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+::placeholder{
+    text-align: center;
+    font-weight: bolder;
+
+}
